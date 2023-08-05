@@ -8,27 +8,27 @@ const Hero = () => {
       className="md:h-[100vh]  bg-cover bg-center "
     >
       <div className="bg-white/50 h-[100vh] gap-16 flex flex-col ">
-        <div className="mt-12 w-[80%] mx-auto  relative">
+        <div className="mt-12 md:w-[80%] w-[95%] mx-auto  relative">
           <img
             src="/navbar.png"
             alt=""
-            className="w-[100%] h-[114px] mx-auto md:mt-12 mt-0"
+            className="w-[100%] md:h-[114px] h-[80px] mx-auto md:mt-12 mt-0"
           />
-          <div className="absolute top-1/2 left-1/2 transform w-[100%] flex justify-center items-center p-16  -translate-x-1/2 -translate-y-1/2 text-center">
-            <div className="flex flex-row mt-8 w-[100%] justify-between items-center">
+          <div className="absolute top-1/2 left-1/2 transform w-[100%] flex justify-center items-center md:p-16  p-12 -translate-x-1/2 -translate-y-1/2 text-center">
+            <div className="flex flex-row md:mt-8 mt-2 w-[100%] justify-between items-center">
               <img
                 src="/logo.png"
                 alt=""
-                className="w-[122px] object-cover h-[37px] "
+                className="md:w-[122px] w-[80px] object-contain  h-[20px] md:h-[37px] "
               />
-              <div className="flex gap-4 items-center">
+              <div className="flex md:gap-8 gap-2 md:text-xl text-xs items-center">
                 <p>Home</p>
                 <p>Home</p>
                 <p>Home</p>
                 <p>Home</p>
               </div>
 
-              <div>
+              <div className="hidden md:block">
                 <button className="bg-[#FB0000] text-white px-8 py-2 rounded-md">
                   Book Appointment
                 </button>
@@ -42,7 +42,7 @@ const Hero = () => {
           <p className="text-3xl font-semibold">
             Effective and <span className="text-[#F50606]">Powerful</span>
           </p>
-          <p className="w-[640px] text-xl  text-center">
+          <p className="md:w-[640px] w-[80%] md:text-xl  text-center">
             Discover the ultimate car detailing experience with our professional
             services, offering everything from exterior and interior detailing
             to paint correction and ceramic coating

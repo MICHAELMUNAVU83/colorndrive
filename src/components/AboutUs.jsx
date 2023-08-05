@@ -4,25 +4,25 @@ import aboutuspic from "/aboutuspic.png";
 
 const AboutUs = () => {
   return (
-    <div className="h-[100vh] bg-black flex flex-col justify-around gap-4 items-center ">
+    <div className="md:h-[100vh] bg-black py-12 md:py-0 flex flex-col justify-around gap-4 items-center ">
       <div className="flex flex-col w-[100%] justify-center items-center">
         <p className="text-xl text-white md:text-2xl">About Us</p>
         <p className="bg-[#FB0000] md:w-[30%] w-[80%] h-[3px]"></p>
       </div>
-      <div className="flex justify-around">
+      <div className="flex md:flex-row flex-col justify-around">
         <div
           style={{ backgroundImage: `url(${aboutusbg})` }}
-          className="bg-cover bg-center h-[434px] md:w-[461px] w-[320px] flex justify-end items-end"
+          className="bg-cover bg-center h-[434px] md:w-[461px] w-[350px] flex justify-end items-end"
         >
           <img
             src={aboutuspic}
             alt=""
-            className="md:h-[252px] h-[280px] -m-8 md:w-[354px] w-[210px] object-cover"
+            className="md:h-[252px] h-[240px] -m-8 md:w-[354px] w-[210px] object-cover"
           />
         </div>
 
-        <div className="flex flex-col w-[50%] text-start justify-center items-center gap-4">
-          <p className="text-white ">
+        <div className="flex flex-col md:w-[50%] mt-12 md:mt-0 md:text-start text-center justify-center items-center gap-4">
+          <p className="text-white p-2 ">
             Experience the ultimate in car detailing excellence at Color &
             Drive. With a genuine passion for cars, our dedicated team of
             professionals goes above and beyond to deliver exceptional services.

@@ -4,18 +4,18 @@ import reviewsbg from "/reviewsbg.png";
 const Reviews = () => {
   return (
     <div
-      className="bg-cover w-[100%] bg-center min-h-[100vh]"
+      className="bg-cover w-[100%] bg-center min-h-[80vh]"
       style={{
         backgroundImage: `url(${reviewsbg})`,
       }}
     >
-      <div className="bg-white/30 h-[100%] w-[100%]  flex flex-col items-center">
+      <div className="bg-white/30 h-[100%] py-12 w-[100%]  flex flex-col justify-center items-center">
         <div className="flex flex-col w-[100%] justify-center items-center">
           <p className="text-xl md:text-2xl">Customers Says</p>
           <p className="bg-red-500 md:w-[30%] w-[80%] h-[3px]"></p>
         </div>
 
-        <div className="flex md:flex-row flex-col justify-between p-4 w-[100%]">
+        <div className="flex md:flex-row flex-col  justify-between p-4 w-[100%]">
           <div className="bg-[#F3F4F6]/50 p-2 flex h-[400px]  justify-between flex-col md:w-[30%]">
             <div className="flex justify-start p-2 items-start">
               <img

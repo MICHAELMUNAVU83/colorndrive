@@ -12,7 +12,7 @@ const Reviews = () => {
       <div className="bg-white/30 h-[100%] py-12 w-[100%]  flex flex-col justify-center items-center">
         <div className="flex flex-col w-[100%] justify-center items-center">
           <p className="text-xl md:text-2xl">Customers Says</p>
-          <p className="bg-red-500 md:w-[30%] w-[80%] h-[3px]"></p>
+          <p className="bg-[#FB0000] md:w-[30%] w-[80%] h-[3px]"></p>
         </div>
 
         <div className="flex md:flex-row flex-col  justify-between p-4 w-[100%]">
@@ -34,7 +34,7 @@ const Reviews = () => {
               and revitalized interior.
             </div>
             <div className="gap-2 flex items-center">
-              <p className="w-[150px] bg-red-500 h-[2px]" />
+              <p className="w-[150px] bg-[#FB0000] h-[2px]" />
 
               <p className="P-4">Michael Munavu</p>
             </div>
@@ -58,7 +58,7 @@ const Reviews = () => {
               and revitalized interior.
             </div>
             <div className="gap-2 flex items-center">
-              <p className="w-[150px] bg-red-500 h-[2px]" />
+              <p className="w-[150px] bg-[#FB0000] h-[2px]" />
 
               <p className="text-white">Michael Munavu</p>
             </div>
@@ -82,7 +82,7 @@ const Reviews = () => {
               and revitalized interior.
             </div>
             <div className="gap-2 flex items-center">
-              <p className="w-[150px] bg-red-500 h-[2px]" />
+              <p className="w-[150px] bg-[#FB0000] h-[2px]" />
 
               <p className="P-4">Michael Munavu</p>
             </div>

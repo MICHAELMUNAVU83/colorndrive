@@ -6,7 +6,7 @@ const WhyUs = () => {
     <div>
       <div className="flex flex-col w-[100%] py-4 justify-center items-center">
         <p className="text-xl md:text-2xl">Why Choose Us?</p>
-        <p className="bg-red-500 md:w-[30%] w-[80%] h-[3px]"></p>
+        <p className="bg-[#FB0000] md:w-[30%] w-[80%] h-[3px]"></p>
       </div>
 
       <div className="md:p-12 p-4 flex md:flex-row flex-col justify-around  items-start">

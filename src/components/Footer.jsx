@@ -3,11 +3,11 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker } from "react-map-gl";
 const Footer = () => {
   return (
-    <div className="p-12 bg-black text-white flex flex-col gap-4 ">
-      <div className="flex flex-row justify-between">
-        <div className="flex w-[60%] flex-col gap-4">
-          <div className="flex gap-4 items-start">
-            <div className="flex flex-col w-[50%] gap-2">
+    <div className="md:p-12 p-8 bg-black text-white flex flex-col gap-4 ">
+      <div className="flex md:flex-row flex-col md:justify-between">
+        <div className="flex md:w-[60%] flex-col gap-4">
+          <div className="flex md:flex-row flex-col-reverse justify-center gap-4 md:items-start items-center">
+            <div className="flex flex-col md:w-[50%] gap-2">
               <div className="flex flex-col w-[100%] justify-center items-center">
                 <p className="text-xl md:text-2xl">Contact Info</p>
                 <p className="w-[80%] bg-white h-[2px]" />
@@ -29,12 +29,12 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex w-[50%] flex-col gap-2">
+            <div className="flex md:w-[50%] flex-col gap-2">
               <div className="flex flex-col w-[100%] justify-center items-center">
                 <p className="text-xl md:text-2xl">Quick Links</p>
                 <p className="w-[80%] bg-white h-[2px]" />
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="flex md:flex-col text-2xl md:text-base gap-2">
                 <p>Home</p>
 
                 <p>Home</p>
@@ -45,8 +45,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div>
-            <p className="text-2xl mt-12 font-bold">Our Socials</p>
+          <div className="my-12">
+            <p className="text-2xl  font-bold">Our Socials</p>
             <div className="flex gap-2 items-center">
               <img
                 src="/tiktok.png"
@@ -73,7 +73,7 @@ const Footer = () => {
             height: "400px",
             paddingBottom: "10px",
             cursor: "pointer",
-            width: "80%",
+            width: "100%",
           }}
           initialViewState={{
             latitude: -1.038757,
@@ -92,13 +92,13 @@ const Footer = () => {
             offsetTop={-10}
           >
             <p className="bg-red-600 font-bold px-2 py-1 text-white rounded-xl">
-              Zero 22 Gym
+              Color & Drive Auto Detailing
             </p>
           </Marker>
         </Map>
       </div>
       <p className="w-[100%] bg-white h-[2px]" />
-      <div className="w-[100%] flex justify-between">
+      <div className="w-[100%] flex md:flex-row flex-col justify-between">
         <p>
           Copyright 2023 Connect. All rights reserved to Car & Drive Auto
           Detailing

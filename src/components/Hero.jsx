@@ -48,11 +48,11 @@ const Hero = () => {
             to paint correction and ceramic coating
           </p>
           <div className="flex justify-center items-center gap-4">
-            <button className="bg-black text-white px-8 py-2 rounded-md">
+            <button className="bg-black text-white md:px-8 px-4 text-sm md:text-base py-2 rounded-md">
               Our Services
             </button>
 
-            <button className="border-[#FB0000] text-[#FB0000] border-2  px-8 py-2 rounded-md">
+            <button className="border-[#FB0000] text-[#FB0000] border-2  md:px-8 px-4 text-sm md:text-base py-2 rounded-md">
               Book Appointment
             </button>
           </div>

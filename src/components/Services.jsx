@@ -48,10 +48,12 @@ const Services = () => {
   ];
   return (
     <div
-      className="md:h-[1582px]  "
+      className="md:h-[1582px] relative "
       style={{ backgroundImage: `url(${servicesbg})` }}
     >
-      <div className="flex flex-col w-[100%] justify-center gap-12 md:p-12 p-5 items-center">
+      <div class="bg-red-500  absolute left-1/2 transform h-[253px]  -translate-x-1/2 -translate-y-1/2  w-[80%]"></div>
+
+      <div className="flex flex-col w-[100%] justify-center  gap-12 md:px-12 md:py-48 p-5 items-center">
         <div className="flex flex-col w-[100%] justify-center items-center">
           <p className="text-xl md:text-2xl">Our Services</p>
           <p className="bg-[#FB0000] md:w-[30%] w-[80%] h-[3px]"></p>
@@ -70,7 +72,9 @@ const Services = () => {
                 <p className="text-start w-[90%] text-[#4B4453] mx-auto">
                   {service.content}
                 </p>
-                <p className="text-end font-semibold text-[#F50606] p-2">Find out more</p>
+                <p className="text-end font-semibold text-[#F50606] p-2">
+                  Find out more
+                </p>
               </div>
             </div>
           ))}

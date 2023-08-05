@@ -51,7 +51,50 @@ const Services = () => {
       className="md:h-[1582px] relative "
       style={{ backgroundImage: `url(${servicesbg})` }}
     >
-      <div class="bg-red-500  absolute left-1/2 transform h-[253px]  -translate-x-1/2 -translate-y-1/2  w-[80%]"></div>
+      <div class="bg-white  rounded-md shadow-md shadow-gray-300 absolute flex  left-1/2 transform h-[253px]  -translate-x-1/2 -translate-y-1/2  w-[80%]">
+        <div className="w-[30%] h-[253px] text-xl font-bold  flex flex-col justify-center items-center">
+          Our Open days
+        </div>
+        <div className="w-[40%] bg-[#FB0000]/90 h-[253px]  flex flex-col gap-4 justify-center items-center">
+          <div className="flex flex-row justify-between  text-xl  text-white border-b-2 border-white w-[60%] items-center">
+            <p className=" font-normal">Monday - Friday</p>
+            <p className=" font-normal">8:00-18:00</p>
+          </div>
+          <div className="flex flex-row justify-between  text-xl  text-white border-b-2 border-white w-[60%] items-center">
+            <p className=" font-normal">Saturday</p>
+            <p className=" font-normal">8:00-18:00</p>
+          </div>
+          <div className="flex flex-row justify-between  text-xl  text-white border-b-2 border-white w-[60%] items-center">
+            <p className=" font-normal">Sunday</p>
+            <p className=" font-normal">8:00-18:00</p>
+          </div>
+
+          <div className="flex flex-row justify-between  text-xl  text-white border-b-2 border-white w-[60%] items-center">
+            <p className=" font-normal">Holiday</p>
+            <p className=" font-normal">8:00-18:00</p>
+          </div>
+        </div>
+        <div className="w-[30%] rounded-md  h-[253px]  flex flex-col justify-center items-center">
+          <div className="h-[50%] text-white w-[100%] flex flex-col justify-center items-center bg-[#FB0000]/80 ">
+            <div className="flex gap-2 items-center">
+              <img src="/tiktok.png" className="w-[24px] h-[24px]" />
+              <div className="gap-2  border-b-2 border-white p-2 flex flex-col">
+                <p>Call for Appoinment</p>
+                <p>+254789045</p>
+              </div>
+            </div>
+          </div>
+          <div className="h-[50%] text-white flex flex-col justify-center items-center w-[100%] bg-[#FB0000] ">
+            <div className="flex gap-2 items-center">
+              <img src="/tiktok.png" className="w-[24px] h-[24px]" />
+              <div className="gap-2  border-b-2 border-white p-2 flex flex-col">
+                <p>Send Us an Email</p>
+                <p>color&drive@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="flex flex-col w-[100%] justify-center  gap-12 md:px-12 md:py-48 p-5 items-center">
         <div className="flex flex-col w-[100%] justify-center items-center">

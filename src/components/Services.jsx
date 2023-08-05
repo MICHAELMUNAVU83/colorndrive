@@ -51,13 +51,13 @@ const Services = () => {
       className="md:h-[1582px]  "
       style={{ backgroundImage: `url(${servicesbg})` }}
     >
-      <div className="flex flex-col w-[100%] justify-center gap-12 p-12 items-center">
+      <div className="flex flex-col w-[100%] justify-center gap-12 md:p-12 p-5 items-center">
         <div className="flex flex-col w-[100%] justify-center items-center">
           <p className="text-xl md:text-2xl">Our Services</p>
           <p className="bg-[#FB0000] md:w-[30%] w-[80%] h-[3px]"></p>
         </div>
 
-        <div className="grid grid-cols-3 gap-16">
+        <div className="grid md:grid-cols-3 gap-16">
           {services.map((service) => (
             <div className="flex flex-col bg-white cursor-pointer hover:scale-105 transition-all ease-in-out duration-500 rounded-md h-[500px] w-[100%]   ">
               <img

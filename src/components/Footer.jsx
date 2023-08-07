@@ -1,6 +1,12 @@
 import React from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker } from "react-map-gl";
+import { BsFacebook } from "react-icons/bs";
+import { AiOutlineTwitter } from "react-icons/ai";
+import { IoIosCall } from "react-icons/io";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { AiFillMail } from "react-icons/ai";
+
 const Footer = () => {
   return (
     <div className="md:p-12 p-8 bg-black text-white flex flex-col gap-4 ">
@@ -13,7 +19,8 @@ const Footer = () => {
                 <p className="w-[80%] bg-white h-[2px]" />
               </div>
               <div className="flex gap-2 items-center">
-                <img src="/tiktok.png" className="w-[24px] h-[24px]" />
+                <IoIosCall className="w-[24px] h-[24px]" />
+
                 <div className="gap-2  border-b-2 border-white p-2 flex flex-col">
                   <p>Call for Appoinment</p>
                   <p>+254789045</p>
@@ -21,7 +28,7 @@ const Footer = () => {
               </div>
 
               <div className="flex gap-2 items-center">
-                <img src="/tiktok.png" className="w-[24px] h-[24px]" />
+                <AiFillMail className="w-[24px] h-[24px]" />
                 <div className="gap-2  border-b-2 border-white p-2 flex flex-col">
                   <p>Send Us an Email</p>
                   <p>color&drive@gmail.com</p>
@@ -48,22 +55,11 @@ const Footer = () => {
           <div className="my-12">
             <p className="text-2xl  font-bold">Our Socials</p>
             <div className="flex gap-2 items-center">
-              <img
-                src="/tiktok.png"
-                className="w-[24px]  h-[24px] object-contain "
-              />
-              <img
-                src="/instagram.png"
-                className="w-[24px]  h-[24px] object-contain "
-              />
-              <img
-                src="/twitter.png"
-                className="w-[24px]  h-[24px] object-contain "
-              />
-              <img
-                src="/facebook.png"
-                className="w-[24px]  h-[24px] object-contain"
-              />
+              <BsFacebook className="w-[24px]  h-[24px] object-contain " />
+
+              <AiOutlineTwitter className="w-[24px]  h-[24px] object-contain " />
+              <IoIosCall className="w-[24px]  h-[24px] object-contain " />
+              <AiOutlineInstagram className="w-[24px]  h-[24px] object-contain " />
             </div>
           </div>
         </div>

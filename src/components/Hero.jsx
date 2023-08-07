@@ -1,6 +1,7 @@
 import React from "react";
 import herobg from "/herobg.png";
 import navbar from "/navbar.png";
+
 const Hero = () => {
   return (
     <div

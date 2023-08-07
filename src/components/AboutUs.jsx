@@ -12,7 +12,7 @@ const AboutUs = () => {
       <div className="flex md:flex-row flex-col justify-around">
         <div
           style={{ backgroundImage: `url(${aboutusbg})` }}
-          className="bg-cover bg-center h-[434px] md:w-[461px] w-[300px] flex justify-end items-end"
+          className="bg-cover bg-center h-[434px] md:w-[40%] w-[90%] flex justify-end items-end"
         >
           <img
             src={aboutuspic}

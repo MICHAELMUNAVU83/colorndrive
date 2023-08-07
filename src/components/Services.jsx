@@ -1,6 +1,7 @@
 import React from "react";
 import servicesbg from "/servicesbg.png";
-
+import { IoIosCall } from "react-icons/io";
+import { AiFillMail } from "react-icons/ai";
 const Services = () => {
   const services = [
     {
@@ -77,7 +78,7 @@ const Services = () => {
         <div className="md:w-[30%] rounded-2xl  md:h-[253px]  flex flex-col justify-center items-center">
           <div className="h-[50%]  bg-black p-2 w-[100%] flex flex-col justify-center items-center text-white  ">
             <div className="flex gap-2 items-center">
-              <img src="/tiktok.png" className="w-[24px] h-[24px]" />
+              <IoIosCall className="w-[24px] h-[24px]" />
               <div className="gap-2  border-b-2 border-white p-2 flex flex-col">
                 <p>Call for Appoinment</p>
                 <p>+254789045</p>
@@ -86,7 +87,7 @@ const Services = () => {
           </div>
           <div className="h-[50%] bg-black p-2  flex flex-col justify-center items-center w-[100%] text-white ">
             <div className="flex gap-2 items-center">
-              <img src="/tiktok.png" className="w-[24px] h-[24px]" />
+              <AiFillMail className="w-[24px] h-[24px]" />
               <div className="gap-2  border-b-2 border-white p-2 flex flex-col">
                 <p>Send Us an Email</p>
                 <p>color&drive@gmail.com</p>

@@ -12,7 +12,7 @@ const WhyUs = () => {
       <div className="md:p-12 p-4 flex md:flex-row flex-col justify-around  items-start">
         <div
           style={{ backgroundImage: `url(${whyusbg})` }}
-          className="bg-cover bg-center h-[468px] md:w-[300px] w-[320px] flex justify-end items-end"
+          className="bg-cover bg-center h-[468px] md:w-[40%] w-[90%] flex justify-end items-end"
         >
           <img
             src={whyuspic}
